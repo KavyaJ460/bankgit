@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BankModel2StoreContainer" CdmEntityContainer="BankEntities3">
+    <EntitySetMapping Name="PostNews">
+      <EntityTypeMapping TypeName="BankModel2.PostNew">
+        <MappingFragment StoreEntitySet="PostNews">
+          <ScalarProperty Name="NewsId" ColumnName="NewsId" />
+          <ScalarProperty Name="Headlines" ColumnName="Headlines" />
+          <ScalarProperty Name="News" ColumnName="News" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
